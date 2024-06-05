@@ -1,0 +1,9 @@
+LifeBoat:
+  address: play.lbsg.net
+  port: 19132
+CubeCraft:
+  address: play.cubecraft.net
+  port: 19132
+TheHive:
+  address: geo.hivebedrock.network
+  port: 19132
