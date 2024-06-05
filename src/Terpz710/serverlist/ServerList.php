@@ -30,7 +30,7 @@ class ServerList extends PluginBase {
         $this->saveDefaultConfig();
         $this->serversConfig = new Config($this->getDataFolder() . "servers.yml", Config::YAML);
 
-        $this->getServer()->getCommandMap()->register("ServerList", new ServerListCommnand($this));
+        $this->getServer()->getCommandMap()->register("ServerList", new ServerListCommand($this));
     }
 
     public function getServersConfig(): Config {
