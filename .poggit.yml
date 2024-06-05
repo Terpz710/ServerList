@@ -1,0 +1,11 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Terpz710/ServerList
+build-by-default: true
+branches:
+- main
+projects:
+  ServerList:
+    path: ""
+    libs:
+    - src: muqsit/invmenu/InvMenu
+      version: ^4.6.5
+...
